@@ -1,0 +1,27 @@
+version(1);
+project_name = "life";
+
+patterns = {
+"*.cpp",
+"*.h",
+"*.c",
+"*.hpp",
+"*.txt",
+"*.4coder",
+"*.sh",
+"*.bat",
+"*.ent",
+"*.glsl",
+"*.md",
+};
+
+blacklist_patterns = {
+".*"
+};
+
+load_paths = {
+    { {
+        { ".", .relative = true, .recursive = true, },
+    }, .os = "win" },
+};
+
